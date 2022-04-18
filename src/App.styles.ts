@@ -1,6 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components';
 //@ts-ignore
-import BCImage from './images/nattu-adnan.jpg';
+import BGImage from './images/architecture.jpg';
 
 export const GlobalStyle = createGlobalStyle`
     html {
@@ -37,22 +37,24 @@ align-items: center;
     color: #fff;
     font-size: 2rem;
     margin: 0;
+    padding-bottom:20px;
 }
 
 h1 {
-    font-family: NotoSans, Haettenschweller, 'Arial Narrow Bold', sans-serif;
-    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    font-family: Teko;
+    background-image: linear-gradient(180deg, #fff, #fff);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-    filter: drop-shadow(2px 2px #0085a3);
-    font-size: 70px;
-    font-weight: 400;
+    filter: drop-shadow(2px 2px #000);
+    font-size: 60px;
+    font-weight: 300;
     text-align: center;
     margin: 20px;
+    padding-top: 20px;
 }
 
     .start, .next {
